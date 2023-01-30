@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: grey;
+}
+
+    .App{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        padding: 5%;
+    }
+
+        .fetchUsers-button{
+            width: 50%;
+            height: 20%;
+            padding: 1px;
+            margin: 5px;
+            background-color: transparent;
+            border: none;
+            font-size: larger;
+            color: white;
+            border-radius: 20px;
+            transition: all 1s ease-in-out;
+        }
+
+            .fetchUsers-button:hover{
+                background-color: white;
+                border: 1px solid black;
+                font-size: larger;
+                color: black;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: all 1s ease-in-out;
+            }
+
+        .fetchUsers-list-element {
+            transition: all 1s ease-in-out;
+            border-radius: 20px;
+            font-size: large;
+            padding: 3px;
+            text-align: center;
+        }
+
+            .fetchUsers-list-element:hover{
+                background-color: white;
+                color: black;
+                cursor: pointer;
+                font-size: larger;
+                transition: all 1s ease-in-out;
+            }
+
+        
+
+        .new-user-input {
+            text-align: center;
+            width: 20%;
+            border-radius: 20px;
+            border: none;
+            margin: 10px;
+            font-size: large;
+            padding: 5px;
+            transition: all 1s ease-in-out;
+        }
+
+            .new-user-input:focus {
+                border: 1px solid black;
+                transition: all 1s ease-in-out;
+                text-align: left;
+            }
+
+        .new-user-button {
+            width: 50%;
+            height: 20%;
+            padding: 1px;
+            margin: 5px;
+            background-color: transparent;
+            border: none;
+            font-size: larger;
+            color: white;
+            border-radius: 20px;
+            transition: all 1s ease-in-out;
+        }
+
+            .new-user-button:hover{
+                background-color: white;
+                border: 1px solid black;
+                font-size: larger;
+                color: black;
+                border-radius: 20px;
+                cursor: pointer;
+                transition: all 1s ease-in-out;
+            }
+
+        .new-user-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+        }
+
+        
+        
